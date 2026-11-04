@@ -1,0 +1,86 @@
+
+export const destinations = [
+  {
+    id: 1,
+    name: "SC. Mindanao",
+    country: "Philippines",
+    price: 148,
+    category: "Nature",
+    image: "photo-1518509562904-e7ef99cdcc86",
+  },
+  {
+    id: 2,
+    name: "Disneyland Tokyo",
+    country: "Japan",
+    price: 210,
+    category: "Adventure",
+    image: "photo-1493976889548-7c1b6b1a6b9a",
+  },
+  {
+    id: 3,
+    name: "Thousand Island",
+    country: "Indonesia",
+    price: 185,
+    category: "Beach",
+    image: "photo-1530789253388-582c481c54b0",
+  },
+  {
+    id: 4,
+    name: "Bohella Santa",
+    country: "Greece",
+    price: 230,
+    category: "Culture",
+    image: "photo-1533105079780-92b9be482077",
+  },
+  {
+    id: 5,
+    name: "Amalfi Coast",
+    country: "Italy",
+    price: 148,
+    category: "Beach",
+    image: "photo-1533587851505-d119e13fa0d7",
+  },
+  {
+    id: 6,
+    name: "Taj Mahal",
+    country: "India",
+    price: 140,
+    category: "Culture",
+    image: "photo-1564507592333-c60657eea523",
+  },
+  {
+    id: 7,
+    name: "Tenerife",
+    country: "Spain",
+    price: 148,
+    category: "Nature",
+    image: "photo-1518548419970-58e3b4079ab2",
+  },
+  {
+    id: 8,
+    name: "Osaka Castle",
+    country: "Japan",
+    price: 156,
+    category: "Culture",
+    image: "photo-1590559899731-a382839e5549",
+  },
+  {
+    id: 9,
+    name: "Cape Reinga",
+    country: "New Zealand",
+    price: 164,
+    category: "Nature",
+    image: "photo-1507699622108-4be3abd695ad",
+  },
+  {
+    id: 10,
+    name: "Sorrento",
+    country: "Italy",
+    price: 172,
+    category: "Beach",
+    image: "photo-1516483638261-f4dbaf036963",
+  },
+];
+
+export const imageUrl = (image, width = 800) =>
+  `https://images.unsplash.com/${image}?auto=format&fit=crop&w=${width}&q=85`;
